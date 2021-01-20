@@ -1,0 +1,50 @@
+.container .Nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+
+.container .Nav ul li {
+    float: left;
+}
+
+.container .Nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.container .Nav ul li a:hover:not(.active) {
+    color: black;
+}
+
+.Nav {
+    text-align: initial;
+}
+
+* {
+    background: url(back.jpg);
+}
+
+
+.container .btn {
+    position: absolute;
+    top: 55%;
+    left: 65%;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .btn:hover {
+    background-color: black;
+    color: white;
+}
